@@ -14,7 +14,7 @@ proj = ccrs.LambertConformal(central_longitude=-72.5, central_latitude=42, stand
 
 plt.rcParams['savefig.dpi']
 
-#Creating the Figure
+#Creating the Internal Figure
 
 fig = plt.figure(figsize = (20,10))
 ax = fig.add_subplot(1,1,1, projection=proj)
